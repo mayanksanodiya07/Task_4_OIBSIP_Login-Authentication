@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5e7b670ad6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="afterMessage" id="afterMessage">
+        <div class="message" id="message"></div>
+        <button id="back">Back to Login</button>
+        </div>
+
+        <div class="form-box" id="form-box">
+            <h1 id="title">Sign Up</h1>
+            <p id="errorMessage"></p> 
+            <form id="form">
+                <div class="input-group">
+
+                    <div class="input-field" id="name-field">
+                        <i class="fa-regular fa-user"></i>
+                        <input id="name" type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="username" placeholder="Username">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="password">
+                    </div>
+                    <button id="btn-submit">submit</button>
+                    <p>Forget password <a href="#">click here</a></p>
+                </div>
+                
+            </form>
+            <div class="btn-field">
+                <button type="button" id="sign-up">Sign Up</button>
+                <button type="button" id="sign-in" class="diasable"> Sign In</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
